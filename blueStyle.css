@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@font-face {
+    font-family: Lobster;
+    src: url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+}
+
+body{
+    background-color: rgb(240, 229, 191);
+}
+
+.Title{
+    font-family: Lobster, cursive;
+    margin: auto;
+    border-bottom: 5px solid rgb(151, 219, 174);
+    background-color: rgb(195, 229, 174);
+    border-radius: 25px;
+    height: 75px;
+    width: 500px;
+}
+
+h1{
+    color:white;
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.MenuBar{
+    position: relative;
+    margin-top: 20px;
+    background-color: rgb(195, 229, 174);
+    border-radius: 25px;
+    border-bottom: 2px solid rgb(151, 219, 174);
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.MenuBar .AboutMe{
+    border-radius: 5px;
+    border-color: rgb(151, 219, 174) ;
+    background-color: rgb(195, 229, 174);
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    margin:5;
+    color: white;
+    font-family: inherit;
+}
+
+.MenuBar .DropDownProjects{
+    border-radius: 5px;
+    border-color: rgb(151, 219, 174) ;
+    background-color: rgb(195, 229, 174);
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    font-family: inherit;
+    margin: 5;
+}
+
+.MenuBar .DropDownEducation{
+    border-radius: 5px;
+    border-color: rgb(151, 219, 174) ;
+    background-color: rgb(195, 229, 174);
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    font-family: inherit;
+    margin: 5;
+}
+
+.MenuBar a{
+    float: left;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.DropDownProjects{
+    float: left;
+    overflow: hidden;
+}
+
+.DropDownContentProjects{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
